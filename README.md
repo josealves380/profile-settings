@@ -1,2 +1,2 @@
 # Profile-Settings
-<img src="./assets/site.png" alt="site">
+<img src="./src/assets/site.png" alt="site">
