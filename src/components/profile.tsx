@@ -1,4 +1,3 @@
-import { User } from "./user";
 import {
   Bell,
   CaretRight,
@@ -13,7 +12,7 @@ import {
 
 export function Profile() {
   return (
-    <div className="bg-gray rounded-xl">
+    <div className="bg-gray rounded-t-xl">
       <div className="flex flex-col-2 justify-center items-center">
         <div>
           <img
@@ -77,7 +76,7 @@ export function Profile() {
         </span>
       </div>
       <div className="flex ml-4 mt-4">
-        <span className="flex items-center gap-2 text-red">
+        <span className="flex items-center gap-2 mb-28 text-red">
           <Upload size={16} weight="light" className="rotate-90" />
           Sair
         </span>

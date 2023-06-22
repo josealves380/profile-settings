@@ -5,8 +5,8 @@ import { Profile } from "../components/profile";
 export function Cover() {
   return (
     <div className="w-screen h-screen bg-black-700">
-      <div className="flex flex-col-2 justify-around items-start w-screen">
-        <div className="mt-32">
+      <div className="flex flex-col-2 justify-between items-start w-screen">
+        <div className="mt-32 ml-32">
           <span className="mt-32">
             <LogoRocketseat />
           </span>
@@ -22,15 +22,15 @@ export function Cover() {
             <BoraCodar />
           </button>
         </div>
-        <div className="flex static justify-end  inset-x-0">
-        <div className="absolute mt-12 mr-8 z-10">
+        <div className="flex static justify-end  inset-0 inset-y-0">
+        <div className="absolute mt-32 mr-48 z-10 mb-0">
           <Profile/>
         </div>
         
-          <span className="bg-purple-600 z-1 border-2 w-72 h-96"></span>
+          <span className="bg-purple-600 z-1 border-2 w-[380px] h-[600px] flex items-stretch justify-self-end"></span>
         </div>
       </div>
-      <footer className="bg-purple-600 w-screen h-3"></footer>
+      <footer className="bg-purple-600 h-3 fixed z-50"></footer>
     </div>
   );
 }
