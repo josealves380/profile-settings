@@ -1,13 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-
+import { Cover } from './Pages/Cover'
+import "./styles/global.css";
 
 function App() {
-  
-
   return (
     <div className="App">
-      <h1>My profile-settings</h1>
+      <Cover/>
     </div>
   )
 }
